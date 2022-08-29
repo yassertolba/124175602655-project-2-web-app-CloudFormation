@@ -375,8 +375,6 @@ Resources:
             echo "$date_time Udacity Demo Web Server Up and Running!" >> index.html
         # Ubuntu Linux machine                                                      <<<<<<<<<<#######
         ImageId: !Ref AMItoUse
-        # key-pair name                                                             <<<<<<<<<<#######
-        # KeyName: !Ref keyPairtoUse
         SecurityGroups:
         - Ref: WebServerSecGroup
         IamInstanceProfile: !Ref ProfileRolesForOurApp
