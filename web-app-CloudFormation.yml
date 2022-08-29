@@ -376,7 +376,7 @@ Resources:
         # Ubuntu Linux machine                                                      <<<<<<<<<<#######
         ImageId: !Ref AMItoUse
         # key-pair name                                                             <<<<<<<<<<#######
-        KeyName: !Ref keyPairtoUse
+        # KeyName: !Ref keyPairtoUse
         SecurityGroups:
         - Ref: WebServerSecGroup
         IamInstanceProfile: !Ref ProfileRolesForOurApp
