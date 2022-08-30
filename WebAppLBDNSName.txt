@@ -1,2 +1,2 @@
-http://proje-webap-17s7wmark5gjp-1989005047.us-east-1.elb.amazonaws.com
+http://proje-WebAp-1B4YE3Q7KT99-1908213372.us-east-1.elb.amazonaws.com
 
