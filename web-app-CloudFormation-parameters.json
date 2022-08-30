@@ -28,10 +28,6 @@
         "ParameterValue": "ami-052efd3df9dad4825"
     },
 	{
-        "ParameterKey": "keyPairtoUse",
-        "ParameterValue": "serverskey"
-    },
-	{
 		"ParameterKey": "InstanceTypetoUse",
 		"ParameterValue": "t2.micro"
 	},

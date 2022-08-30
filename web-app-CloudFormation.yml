@@ -41,10 +41,6 @@ Parameters:
         Type: String
 
 
-    keyPairtoUse:
-        Description: keyPairtoUse
-        Type: String
-
 
     InstanceTypetoUse:
         Description: Instance Type to Use
@@ -347,7 +343,7 @@ Resources:
         # Ubuntu Linux machine                                                      <<<<<<<<<<#######
         ImageId: !Ref AMItoUse
         # key-pair name                                                             <<<<<<<<<<#######
-        KeyName: !Ref keyPairtoUse
+        KeyName: serverskey
         InstanceType: !Ref InstanceTypetoUse
         NetworkInterfaces:
           - AssociatePublicIpAddress: "true"
@@ -372,7 +368,7 @@ Resources:
             date_time=$(date)
             date
             date_time
-            echo "$date_time Udacity Demo Web Server Up and Running!" >> index.html
+            echo "$date_time <h1>It works! Udagram, Udacity</h1>" > index.html
         # Ubuntu Linux machine                                                      <<<<<<<<<<#######
         ImageId: !Ref AMItoUse
         SecurityGroups:
