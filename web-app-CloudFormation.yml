@@ -342,8 +342,6 @@ Resources:
             echo "$date_time Udacity Jump-Box Host Instance Up and Running!" >> index.html
         # Ubuntu Linux machine                                                      <<<<<<<<<<#######
         ImageId: !Ref AMItoUse
-        # key-pair name                                                             <<<<<<<<<<#######
-        KeyName: serverskey
         InstanceType: !Ref InstanceTypetoUse
         NetworkInterfaces:
           - AssociatePublicIpAddress: "true"
